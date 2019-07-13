@@ -31,6 +31,7 @@ export const BlogPostTemplate = ({
                     }
                   />
                   </div>
+<img src={heroimage.childImageSharp.fluid.src} className="hidden" />
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
